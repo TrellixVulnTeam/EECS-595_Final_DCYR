@@ -1,10 +1,7 @@
-# EWISE
-
-Reference code for [ACL2019](http://acl2019.org/) paper [Zero-shot Word Sense Disambiguation using Sense Definition Embeddings](https://www.aclweb.org/anthology/P19-1568/).
-*EWISE*[1] (Extended WSD Incorporating Sense Embeddings) is a principled framework to learn from a combination of sense-annotated data, dictionary definitions and lexical knowledge bases.
+# Lex2Vec: A Modified Language Model Combining WSD and Lexical Information with BERT
 
 <p align="center">
-  <img align="center" src="https://github.com/malllabiisc/EWISE/blob/master/images/architecture.png" alt="...">
+  <img align="center" src="https://github.com/You-Ivan/EECS-595_Final/blob/main/modle%20structure.png" alt="...">
 </p>
 
 We have used the [WSD evalauation framework](http://lcl.uniroma1.it/wsdeval)[2] for training and evaluation.
