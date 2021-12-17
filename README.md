@@ -4,8 +4,6 @@
   <img align="center" src="https://github.com/You-Ivan/EECS-595_Final/blob/main/modle%20structure.png" alt="...">
 </p>
 
-We have used the [WSD evalauation framework](http://lcl.uniroma1.it/wsdeval)[2] for training and evaluation.
-
 ## Dependencies
 The code was written with, or depends on:
 * Python 3.6
