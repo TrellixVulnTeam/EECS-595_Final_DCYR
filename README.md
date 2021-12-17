@@ -42,7 +42,7 @@ The code was written with, or depends on:
       ```
       
 ## Pre-trained embeddings and models
-All files are shared at https://drive.google.com/drive/folders/1NSrOx4ZY9Zx957RANFO90RX9daqIDElR
+All files are shared at https://drive.google.com/drive/folders/1zxTtepYpolF3Qwj3BtaNLBi0ypusamAt?usp=sharing
 Uncompress model files using gunzip before using.
 A & B would suffice if only training/evaluating a WSD model.
 
@@ -56,14 +56,4 @@ D. Processed input word embeddings: ```i_id_embedding_glove.p``` (Needed only if
 
 
 An earlier version contained some code for weighted cross entropy loss (now enabled only by the ```--weighted_loss``` flag). The scheme wasn't really helpful and is not recommended. However, a pre-trained model for the same is shared: ```model_weighted.pt.gz``` (F1 score on ALL dataset: 72.1)
-      
-## Citation
-If you use this code, please consider [citing](https://www.aclweb.org/anthology/P19-1568.bib):
-
-[1] Kumar, Sawan, Sharmistha Jat, Karan Saxena, and Partha Talukdar. "Zero-shot word sense disambiguation using sense definition embeddings." In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 5670-5681. 2019.
-
-## References
-[2] Alessandro Raganato, Jose Camacho-Collados, and Roberto Navigli. 2017. Word sense disambiguation: A unified evaluation framework and empirical comparison. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers, pages 99–110, Valencia, Spain. Association for Computational Linguistics.
-
-## Contact
-For any clarification, comments, or suggestions please create an issue or contact sawankumar@iisc.ac.in
+ 
